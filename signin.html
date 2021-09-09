@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dishes</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="./css/index.css">
     <script src="https://kit.fontawesome.com/8496e38a83.js" crossorigin="anonymous"></script>
 </head>
@@ -18,13 +18,13 @@
             <div class="col-div-6">
                 <ul class="menu">
                     <li><a href="index.html" >Home</a></li>
-                    <li><a href="dishes.html" style="color: #29ec5a;">Dishes</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="dishes.html" >Dishes</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="menu.html" >Menu</a></li>
                     <li><a href="review.html">Review</a></li>
-                    <li><a href="order.html">Order</a></li>
+                    <li><a href="order.html" >Order</a></li>
                     <li><a href="signup.html">SignUp</a></li>
-                    <li><a href="signin.html">SignIn</a></li>
+                    <li><a href="signin.html" style="color: #29ec5a;">SignIn</a></li>
                 </ul>
             </div>
             <div class="col-div-9">
@@ -37,18 +37,17 @@
             </div>
         </div>
     </header>
-    <div class="slide-slide6">
+    <div class="slide-slide5">
         <div class="slidecontent1">
-        <div class="slide-content1">
-            <p>Our Special Dish</p>
-            <h1>Spicy Noodles</h1>
-            <h2>Le Lorem Ipsum est simplement du faux texte employé dans la composition <br> et la mise en page avant impression.</h2>
-            <button class="submit">Order Now</button>
+        <div class="slide-content2">
+            <p></p>
+            <h1>Welcome To Resto</h1>
+            <h2></h2>
         </div>
         </div>
         </div>
     </section>
-    <section class="sec-5">
+    <section class="sec-9">
         <header>
         <div class="container1">
             <div class="col-div-4">
@@ -56,14 +55,14 @@
             </div>
             <div class="col-div-8">
                 <ul class="menu">
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="dishes.html" style="color: #29ec5a;">Dishes</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="review">Review</a></li>
-                    <li><a href="order.html">Order</a></li>
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#" >Dishes</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#" >Menu</a></li>
+                    <li><a href="#" >Review</a></li>
+                    <li><a href="#" >Order</a></li>
                     <li><a href="signup.html">SignUp</a></li>
-                    <li><a href="signin.html">SignIn</a></li>
+                    <li><a href="signin.html" style="color: #29ec5a;">SignIn</a></li>
                 </ul>
             </div>
             <div class="col-div-12">
@@ -77,75 +76,30 @@
         </div>
     </header>
     <div class="container2">
-        <h1>Our Dishes</h1>
-        <h2>POPULAR DISHES.</h2>
+        <h1>Login</h1>
+        <h2>FREE AND FAST</h2>
     </div>
-    <div class="overflow">
-    <div class="cards_wrap">
-        <div class="card_items">
-            <div class="card_inner">
-                <img src="./images/dish-1.png">
-                <h2>Tasty Food</h2>
-                <div class="cart">
-                    <h3>$15.99</h3>
-                    <button class="btn" type="submit">Add To Cart</button>
-                </div>  
+    <div class="login-5">
+        <div class="login-3">
+            <div class="error" id="error">
             </div>
+            <form class="form-2" id="form" method="POST" name="form" onsubmit="return validated()">
+                <p>
+                    <label>Username</label>
+                    <input type="text"  id="username" title="Username" placeholder="enter your username">
+                </p>
+                <p>
+                    <label>Password</label>
+                    <input type="password"  id="password" placeholder="enter your password">
+                </p>
+                <div class="flex1">
+                    <button type="submit" id="submit">login</button>
+                    <h3>New User? Signup</h3>
+                </div>
+            </form>
         </div>
-        <div class="card_items">
-            <div class="card_inner">
-                <img src="./images/dish-2.png">
-                <h2>Tasty Food</h2>
-                <div class="cart">
-                    <h3>$15.99</h3>
-                    <button class="btn" type="submit">Add To Cart</button>
-                </div> 
-            </div>
-        </div>
-        <div class="card_items">
-            <div class="card_inner">
-                <img src="./images/dish-3.png">
-                <h2>Tasty Food</h2>
-                <div class="cart">
-                    <h3>$15.99</h3>
-                    <button class="btn" type="submit">Add To Cart</button>
-                </div> 
-            </div>
-        </div>
+        
     </div>
-    <div class="cards_wrap1">
-        <div class="card_items">
-            <div class="card_inner">
-                <img src="./images/dish-4.png">
-                <h2>Tasty Food</h2>
-                <div class="cart">
-                    <h3>$15.99</h3>
-                    <button class="btn" type="submit">Add To Cart</button>
-                </div> 
-            </div>
-        </div>
-        <div class="card_items">
-            <div class="card_inner">
-                <img src="./images/dish-5.png">
-                <h2>Tasty Food</h2>
-                <div class="cart">
-                    <h3>$15.99</h3>
-                    <button class="btn" type="submit">Add To Cart</button>
-                </div> 
-            </div>
-        </div>
-        <div class="card_items">
-            <div class="card_inner">
-                <img src="./images/dish-6.png">
-                <h2>Tasty Food</h2>
-                <div class="cart">
-                    <h3>$15.99</h3>
-                    <button class="btn" type="submit">Add To Cart</button>
-                </div> 
-            </div>
-        </div>
-    </div>
-</div>
     </section>
     <button onclick="topFunction()"  id="back-to-top">&#8593;</button>
     <script id="top-to-bottom">
@@ -166,6 +120,7 @@
         document.documentElement.scrollTop = 0;
     }
 </script>
+<script src="/js/script.js"></script>
 </body>
 <footer>
     <div class="footer">
@@ -190,7 +145,7 @@
                  <li><a href="review.html">Review</a></li>
                  <li><a href="order.html">Order</a></li>
                  <li><a href="signup.html">SignUp</a></li>
-                    <li><a href="signin.html">SignIn</a></li>
+                    <li><a href="signin.html" style="color: #29ec5a;">SignIn</a></li>
              </ul>
          </div>
          <div class="footer-2">

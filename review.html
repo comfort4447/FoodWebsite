@@ -6,8 +6,191 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Review</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/8496e38a83.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <section class="sec-0">
+        <header>
+        <div class="container">
+            <div class="col-div-3">
+                <a href="#" class="logo">Resto</a>
+            </div>
+            <div class="col-div-6">
+                <ul class="menu">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="dishes.html" >Dishes</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="review.html" style="color: #29ec5a;">Review</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="signup.html">SignUp</a></li>
+                    <li><a href="signin.html">SignIn</a></li>
+                </ul>
+            </div>
+            <div class="col-div-9">
+                <i class="fas fa-search icon"></i>
+                <i class="fas fa-heart icon"></i>
+                <i class="fas fa-shopping-cart icon"></i>
+            </div>
+            <div class="clear-fix">
+
+            </div>
+        </div>
+    </header>
+    <div class="slide-slide4">
+        <div class="slidecontent1">
+        <div class="slide-content1">
+            <p>Our Special Dish</p>
+            <h1>Spicy Noodles</h1>
+            <h2>Le Lorem Ipsum est simplement du faux texte employé dans la composition <br> et la mise en page avant impression.</h2>
+            <button class="submit">Learn More</button>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="sec-3">
+        <header>
+        <div class="container1">
+            <div class="col-div-4">
+                <a href="#" class="logo">Resto</a>
+            </div>
+            <div class="col-div-8">
+                <ul class="menu">
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#" >Dishes</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#" >Menu</a></li>
+                    <li><a href="#" style="color: #29ec5a;">Review</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="signup.html">SignUp</a></li>
+                    <li><a href="signin.html">SignIn</a></li>
+                </ul>
+            </div>
+            <div class="col-div-12">
+                <i class="fas fa-search icon"></i>
+                <i class="fas fa-heart icon"></i>
+                <i class="fas fa-shopping-cart icon"></i>
+            </div>
+            <div class="clear-fix">
+
+            </div>
+        </div>
+    </header>
+    <div class="container2">
+        <h1>Customer's Review</h1>
+        <h2>WHAT THEY SAY</h2>
+    </div>
+    <div class="overflow2">
+    <div class="cards_wrap3">
+        <div class="card_items2">
+            <div class="card_inner2">
+                <div class="review-1">
+                    <img src="./images/pic-1.png">
+                <h2>John Deo</h2>
+                </div>
+                <div class="cart2">
+                    <h3>Le Lorem Ipsum est simplement du faux texte employé dans la composition
+                        <br> et la mise en page avant impression. Le Lorem Ipsum est le faux texte stand<br>
+                        ard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme</h3>
+                </div>  
+            </div>
+        </div>
+        <div class="card_items2">
+            <div class="card_inner2">
+                <div class="review-1">
+                    <img src="./images/pic-2.png">
+                <h2>John Deo</h2>
+                </div>
+                <div class="cart2">
+                    <h3>Le Lorem Ipsum est simplement du faux texte employé dans la composition
+                        <br> et la mise en page avant impression. Le Lorem Ipsum est le faux texte stand<br>
+                        ard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme</h3>
+                </div> 
+            </div>
+        </div>
+        <div class="card_items2">
+            <div class="card_inner2">
+                <div class="review-1">
+                    <img src="./images/pic-3.png">
+                <h2>John Deo</h2>
+                </div>
+                <div class="cart2">
+                    <h3>Le Lorem Ipsum est simplement du faux texte employé dans la composition
+                        <br> et la mise en page avant impression. Le Lorem Ipsum est le faux texte stand<br>
+                        ard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme</h3>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <button class="submit-review">See More</button>
+    </section>
+    <button onclick="topFunction()"  id="back-to-top">&#8593;</button>
+    <script id="top-to-bottom">
+        let backToTop = document.getElementById("back-to-top");
+
+            window.onscroll = function(){
+            scrollFunction();
+        }
+            function scrollFunction(){
+            if (document.documentElement.scrollTop > 20){
+            backToTop.style.visibility = "visible";
+        } else {
+                backToTop.style.visibility = "hidden";
+            }
+    }
+
+        function topFunction(){
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 </body>
+<footer>
+    <div class="footer">
+     <div class="footer-1">
+         <div class="footer-2">
+             <p>Locations</p>
+             <ul>
+                 <li><a href="#">India</a></li>
+                 <li><a href="#">Japan</a></li>
+                 <li><a href="#">Russia</a></li>
+                 <li><a href="#">USA</a></li>
+                 <li><a href="#">France</a></li>
+             </ul>
+         </div>
+         <div class="footer-2">
+             <p>Quick Links</p>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="dishes.html">Dishes</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="menu.html">Menu</a></li>
+                 <li><a href="review.html">Review</a></li>
+                 <li><a href="order.html">Order</a></li>
+                 <li><a href="signup.html">SignUp</a></li>
+                    <li><a href="signin.html">SignIn</a></li>
+             </ul>
+         </div>
+         <div class="footer-2">
+             <p>Contact Info</p>
+             <ul>
+                 <li><a href="#">+123-456-7890</a></li>
+                 <li><a href="#">+111-222-3333</a></li>
+                 <li><a href="#">Shaikhans@gmail.com</a></li>
+                 <li><a href="#">Anasbhai@gmail.com</a></li>
+                 <li><a href="#">Mumbai, India - 400104</a></li>
+             </ul>
+         </div>
+         <div class="footer-2">
+             <p>Follow Us</p>
+             <ul>
+                 <li><a href="#">Facebook</a></li>
+                 <li><a href="#">Twitter</a></li>
+                 <li><a href="#">Instagram</a></li>
+                 <li><a href="#">Linkedin</a></li>
+             </ul>
+         </div>
+     </div>
+     <h1>Copyright @ 2021 By Miss Comfort</h1>
+    </div>
+ </footer>
 </html>
